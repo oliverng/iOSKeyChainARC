@@ -14,6 +14,7 @@
 		D42DA3BB1ACBC87B007A235F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42DA3BA1ACBC87B007A235F /* Images.xcassets */; };
 		D42DA3BE1ACBC87B007A235F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42DA3BC1ACBC87B007A235F /* LaunchScreen.xib */; };
 		D42DA3CA1ACBC87B007A235F /* iOSKeyChainARCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D42DA3C91ACBC87B007A235F /* iOSKeyChainARCTests.m */; };
+		D42DA3D41ACBC8A9007A235F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42DA3D31ACBC8A9007A235F /* Security.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		D42DA3C31ACBC87B007A235F /* iOSKeyChainARCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSKeyChainARCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42DA3C81ACBC87B007A235F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D42DA3C91ACBC87B007A235F /* iOSKeyChainARCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSKeyChainARCTests.m; sourceTree = "<group>"; };
+		D42DA3D31ACBC8A9007A235F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42DA3D41ACBC8A9007A235F /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		D42DA3A11ACBC87B007A235F = {
 			isa = PBXGroup;
 			children = (
+				D42DA3D31ACBC8A9007A235F /* Security.framework */,
 				D42DA3AC1ACBC87B007A235F /* iOSKeyChainARC */,
 				D42DA3C61ACBC87B007A235F /* iOSKeyChainARCTests */,
 				D42DA3AB1ACBC87B007A235F /* Products */,
