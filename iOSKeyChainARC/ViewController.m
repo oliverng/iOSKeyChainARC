@@ -100,7 +100,7 @@
     
   } else {
     // send alert message
-    [self createAlert:@"No keychain item for this user found" ];
+    [self createAlert:@"No keychain item for this key found" ];
   }
 }
 
@@ -125,7 +125,7 @@
     
   } else {
     // send alert message
-    [self createAlert:@"No keychain item for this user found" ];
+    [self createAlert:@"No keychain item for this key found" ];
   }
 }
 
